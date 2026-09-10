@@ -620,5 +620,5 @@ footer.site-footer{
   .main-content > header.site-header{ order: 0; }
   .main-hero{ order: 1; }
   .ad-sidebar{ order: 2; width: 100%; position: static; }
-  .main-content > *:not(.main-hero){ order: 3; }
+  .main-content > *:not(.main-hero):not(header.site-header){ order: 3; }
 }
