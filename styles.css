@@ -116,6 +116,11 @@ header.site-header{
   align-items: center;
   justify-content: space-between;
   height: 76px;
+  gap: 32px;
+}
+
+nav{
+  flex-shrink: 0;
 }
 
 .brand-mark{
@@ -123,6 +128,7 @@ header.site-header{
   align-items:baseline;
   gap: 9px;
   color: #fff;
+
 }
 
 .brand-mark .dot{
@@ -145,7 +151,13 @@ header.site-header{
   color: var(--ink-faint);
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  margin-left: 6px;
+  margin-left: 0;
+}
+
+.brand-text{
+  display:flex;
+  flex-direction:column;
+  line-height: 1.15;
 }
 
 .brand-logo {
@@ -603,5 +615,5 @@ footer.site-footer{
   .cta-banner{ flex-direction:column; align-items:flex-start; }
 
   .page-layout{ flex-direction: column; }
-  .ad-sidebar{ width: 100%; position: static; top:70px;}
+  .ad-sidebar{ width: 100%; position: static; }
 }
