@@ -616,5 +616,8 @@ footer.site-footer{
   .cta-banner{ flex-direction:column; align-items:flex-start; }
 
   .page-layout{ flex-direction: column; }
-  .ad-sidebar{ width: 100%; position: static; }
+  .main-content{ display: contents; }
+  .main-hero{ order: 1; }
+  .ad-sidebar{ order: 2; width: 100%; position: static; }
+  .main-content > *:not(.main-hero){ order: 3; }
 }
