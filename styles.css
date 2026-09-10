@@ -551,7 +551,7 @@ footer.site-footer{
 }
 
 /* ---------- Responsive ---------- */
-@media (max-width: 900px){
+@media (max-width: 1200px){
   nav.main-nav{ display:none; }
   .nav-toggle{ display:block; }
   .grid-3, .grid-2, .form-grid{ grid-template-columns: 1fr; }
