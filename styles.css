@@ -550,7 +550,7 @@ footer.site-footer{
 }
 
 /* ---------- Responsive ---------- */
-@media (max-width: 768px){
+@media (max-width: 900px){
   .main-hero h1{ font-size: 18px; }
   .main-hero p.lede{ font-size: 10px; }
   .sub-hero h1{ font-size: 18px; }
