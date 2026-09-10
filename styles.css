@@ -121,7 +121,6 @@ header.site-header{
   display: flex;
   align-items: center;
   gap: 20px;
-  transform: translateX(-100px);
 }
 
 nav.main-nav{
@@ -554,6 +553,7 @@ footer.site-footer{
 @media (max-width: 768px){
   nav.main-nav{ display:none; }
   .nav-toggle{ display:block; }
+  nav.main-nav.nav-open{ display:flex; flex-direction:column; gap: 20px; position:absolute; top:76px; left:0; width:100%; background: var(--paper); padding: 20px 32px; border-top: 1px solid var(--line); gap: 16px; z-index: 60;}
   .grid-3, .grid-2, .form-grid{ grid-template-columns: 1fr; }
   .stats-bar{ grid-template-columns: repeat(2,1fr); }
   .stat:nth-child(2){ border-right:none; }
