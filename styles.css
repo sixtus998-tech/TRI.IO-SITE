@@ -603,5 +603,5 @@ footer.site-footer{
   .cta-banner{ flex-direction:column; align-items:flex-start; }
 
   .page-layout{ flex-direction: column; }
-  .ad-sidebar{ width: 100%; position: static; top:auto}
+  .ad-sidebar{ width: 100%; position: static; top:70px;}
 }
