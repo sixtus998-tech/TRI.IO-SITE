@@ -617,8 +617,8 @@ footer.site-footer{
 
   .page-layout{ flex-direction: column; }
   .main-content{ display: contents; }
-  .site-header{ order: 1;}
-  .main-hero{ order: 2; }
-  .ad-sidebar{ order: 3; width: 100%; position: static; }
-  .main-content > *:not(.main-hero){ order: 4; }
+  .main-content > header.site-header{ order: 0; }
+  .main-hero{ order: 1; }
+  .ad-sidebar{ order: 2; width: 100%; position: static; }
+  .main-content > *:not(.main-hero){ order: 3; }
 }
